@@ -3070,17 +3070,6 @@ pre .javascript .function {
   height: 100vh;
   overflow: hidden;
   background: url("/images/bg.svg") center center/cover no-repeat;
-  background-position-y: var(--header-height);
-}
-@media (max-width: 800px) {
-  .first-screen-container {
-    background-position-y: calc(var(--header-height) * 0.9);
-  }
-}
-@media (max-width: 500px) {
-  .first-screen-container {
-    background-position-y: calc(var(--header-height) * 0.8);
-  }
 }
 .first-screen-container .first-screen-content {
   display: flex;
